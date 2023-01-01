@@ -1,4 +1,4 @@
-module Fixture::player
+module Fixtures::Player
   class Player < Hero_base
     def initialize
       
