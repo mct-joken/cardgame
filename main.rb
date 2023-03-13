@@ -1,16 +1,17 @@
-require 'dxruby'
+require "dxruby"
 
-p 1
 Dir[
+  "lib/fixtures/fixtures.rb",
+  "lib/fixtures/card/card_base.rb",
+  "lib/fixtures/player/player_base.rb",
+  "lib/fixtures/enemy/enemy_base.rb",
   "lib/fixtures/**/*.rb",
-    "lib/scene/*.rb"
+  "lib/scene/scene_base.rb",
+  "lib/scene/*.rb"
     ].each do |file|
-  puts file
   require_relative file
 end
-p 2
-scene = Scene::Opening.new
-p 3
+scene = Scene::Title.new
 
 Window.loop do
   scene.update
