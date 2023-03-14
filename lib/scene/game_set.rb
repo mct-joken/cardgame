@@ -15,6 +15,7 @@ module Scene
       super
       @player.update
       @enemy.update
+      p @player.card_slot.class
       rand_num = rand(2)
       @next_scene = Scene::Attack.new if rand_num == 0
       @next_scene = Scene::Defense.new if rand_num == 1

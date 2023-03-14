@@ -1,4 +1,5 @@
 module Fixtures::Player
+
   class Player_setting < Player_base
     def initialize
       super
@@ -6,11 +7,11 @@ module Fixtures::Player
 
     def update
       select_type(rand(5))
-      super
-
-      while @card_num == 7 do
+      while @@card_num != 7 do
         draw_card
       end
+      super
+      p @@card_slot.class
     end
   end
 end

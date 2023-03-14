@@ -1,5 +1,6 @@
 module Fixtures::Card
     class Card_base
+      attr_accessor :card_type
       def initialize
         @card_name = "noname"
         @card_number = 0

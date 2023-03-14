@@ -9,36 +9,38 @@ module Scene
 
       @player = Player_defense.new
       @enemy = Enemy_attack.new
+      @damage = 0
     end
 
     def update
       super
-      @player.draw
-      @player.card_slot.each do |n|
-        x += 40
-        y += 50 if x%400 == 0
-        n.display(x,y)
-      end
+      @player.display
       @enemy.draw
       @player.update
       @enemy.update
 
-      @damage = @enemy.attack_value - @player.defense_value if @enemy.attack_type == @player.defense_type
-      @damage = @enemy.attack_value if @enemy.attack_type != @player.defense_type
-      @damage = 0 if @enemy.attack_value <= @player.defense_value
-      @player.hp -= @damage
+      if @enemy.attack_type == @player.defense_type
+        @damage = (@enemy.attack_value - @player.defense_value)
+      elsif @enemy.attack_type != @player.defense_type
+        @damage = @enemy.attack_value
+      else @enemy.attack_value <= @player.defense_value
+        @damage = 0
+      end
 
-      @next_scene = Scene::Attack.new if @player.hp != 0
+      @player.damage(@damage)
 
       if @player.hp == 0
-        Window.draw(100,100,Image.load("lib/fixtures/image/lose.png"))
+        #Window.draw(100,100,Image.load("lib/fixtures/image/lose.png"))
         if Input.mouse_push?(M_LBUTTON)
-          @check = true
           @next_scene = Scene::Home.new
+          @check = true
         end
       end
 
-      @check = true
+      if @player.hp != 0
+        @next_scene = Scene::Attack.new
+        @check = true
+      end
     end
   end
 end

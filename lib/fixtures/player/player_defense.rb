@@ -1,19 +1,24 @@
 module Fixtures::Player
   class Player_defense < Player_base
     def initialize
-      super
+      @defense_type = "normal"
+      @defense_value = 0
     end
 
     def update
       super
-      @card_slot.each do |n|
+      @@card_slot.each do |n|
         if n === @mouse
-          if n.card_type == "weapons"
+          if n.type == "weapons"
             @defense_value = n.defense_value
             @defense_type = n.defense_type
           end
         end
       end
+    end
+
+    def damage(damage)
+      @@hp -= damage
     end
 
     def defense_value

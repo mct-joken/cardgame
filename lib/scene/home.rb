@@ -14,9 +14,9 @@ module Scene
       @button1.draw
       @button2.draw
       if Input.mouse_push?(M_LBUTTON)
+        @next_scene = Scene::Game_set.new if @button1 === @mouse
+        @next_scene = Scene::Title.new if @button2 === @mouse
         @check = true
-        @next_scene = Scene::Game_set.new #if @button1 === @mouse
-        #@next_scene = Scene::Title.new if @button2 === @mouse
       end
     end
   end

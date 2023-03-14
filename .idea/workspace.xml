@@ -5,39 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fe28fbf-0ae7-4f71-9788-925e702967d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/cardgame.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fixtures/card/card_armors.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fixtures/card/card_base.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fixtures/card/card_index.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fixtures/card/card_tools.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fixtures/card/card_weapons.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fixtures/enemy/enemy_attack.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fixtures/enemy/enemy_base.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fixtures/enemy/enemy_defense.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fixtures/enemy/enemy_setting.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fixtures/fixtures.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fixtures/mouse/mouse.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fixtures/player/player_attack.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fixtures/player/player_base.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fixtures/player/player_defense.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/images/attack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/images/base.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/images/difence.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/images/hero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/images/home.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/images/set.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/images/title.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/scene/attack.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/scene/defense.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/scene/game_set.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/scene/home.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/scene/scene_base.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/scene/title.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fixtures/card/card_armors.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fixtures/card/card_armors.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fixtures/card/card_base.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fixtures/card/card_base.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fixtures/card/card_index.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fixtures/card/card_index.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fixtures/card/card_weapons.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fixtures/card/card_weapons.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fixtures/enemy/enemy_attack.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fixtures/enemy/enemy_attack.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fixtures/enemy/enemy_base.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fixtures/enemy/enemy_base.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fixtures/enemy/enemy_defense.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fixtures/enemy/enemy_defense.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fixtures/enemy/enemy_setting.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fixtures/enemy/enemy_setting.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fixtures/player/player_attack.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fixtures/player/player_attack.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fixtures/player/player_base.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fixtures/player/player_base.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fixtures/player/player_defense.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fixtures/player/player_defense.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fixtures/player/player_setting.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fixtures/player/player_setting.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/images/hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/lib/images/hero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/scene/attack.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scene/attack.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/scene/defense.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scene/defense.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/scene/game_set.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scene/game_set.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/scene/home.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scene/home.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/main.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +57,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
     &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -173,7 +159,11 @@
       <workItem from="1678351567232" duration="593000" />
       <workItem from="1678596765251" duration="628000" />
       <workItem from="1678685087152" duration="11000" />
-      <workItem from="1678687133734" duration="6581000" />
+      <workItem from="1678687133734" duration="7077000" />
+      <workItem from="1678718876200" duration="1477000" />
+      <workItem from="1678758367289" duration="10890000" />
+      <workItem from="1678772315962" duration="611000" />
+      <workItem from="1678779458456" duration="19206000" />
     </task>
     <servers />
   </component>
